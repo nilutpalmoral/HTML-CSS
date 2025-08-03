@@ -54,50 +54,66 @@ body {
   font-weight: 100;
   /* background-color: white; */
 }
-#btn1{
-    background-color: white;
+#btn1 {
+  background-color: white;
 }
 #btn2 {
   background-color: black;
   color: white;
   border: none;
 }
-#main>h1{
-    font-size: 160px;
-    font-weight: 90;
-    text-transform: uppercase;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-
+#main > h1 {
+  font-size: 160px;
+  font-weight: 90;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
-img{
-    height: 380px;
-    width: 270px;
-    object-fit: cover;
-    object-position: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 25px;
+img {
+  height: 380px;
+  width: 270px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
 }
-#img1{
-    transform: translate(-50%, -50%) rotate(-30deg);
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
 }
-#img2{
-    transform: translate(-50%, -50%) rotate(-20deg);
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
 }
-#img3{
-    transform: translate(-50%, -50%) rotate(-10deg);
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
 }
-h5{
-    bottom: 30px;
-    left: 25px;
-    position: absolute;
-    font-size: 11px;
-    font-weight: 200;
+h5 {
+  bottom: 30px;
+  left: 25px;
+  position: absolute;
+  font-size: 11px;
+  font-weight: 200;
+}
+#leftfotter {
+  bottom: 30px;
+  right: 25px;
+  position: absolute;
+  padding-left: 80%;
+  font-size: 11px;
+  font-weight: 200;
+}
+#socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  bottom: 50px;
+  right: 105px;
+  position: absolute;
 }
